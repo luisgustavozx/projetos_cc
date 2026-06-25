@@ -19,6 +19,6 @@ Esse circuito é referente ao projeto proposto na cadeira de Circuitos Digitais 
 
 ## 📝 Tabelas Verdade
 Subtrator 1 bit  
-![Tabela Verdade 1](Imagens/WhatsApp Image 2026-06-24 at 16.01.10.jpeg)  
+![Tabela Verdade 1](Imagens/WhatsApp-Image-2026-06-24-at-16.01.10.png)  
 Multiplexador 1 bit  
-![Tabela Verdade 2](Imagens/WhatsApp Image 2026-06-24 at 16.01.09.jpeg)
+![Tabela Verdade 2](Imagens/WhatsApp-Image-2026-06-24-at-16.01.09.png)
