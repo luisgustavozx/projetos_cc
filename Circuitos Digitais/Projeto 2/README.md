@@ -1,18 +1,30 @@
-# Jogo de Adivinhação Guess the Number
+# Jogo de Adivinhação Guess the Number XTREME
 
 ## 💡 Sobre o projeto
-Esse circuito é referente ao projeto proposto na cadeira de Circuitos Digitais da UFCA e foi construído no Logisim ITA. O mesmo trata-se de um jogo onde um número é sorteado e o usuário deve tentar adivinhar qual foi.
+Esse circuito é referente ao projeto proposto na cadeira de Circuitos Digitais da UFCA e foi construído no Logisim. O mesmo trata-se de um jogo de adivinhação para dois jogadores, onde um ponto no espaço é sorteado aleatoriamente através de duas coordenadas X e Y, cada uma sendo um número de 4 bits, e os jogadores devem tentar descobrir quais são essas coordenadas.
 
 ## 🎲 Como jogar
-1 - Um número de 4 bits é sorteado.  
-2 - O jogador dá um palpite de um número de 4 bits.  
-3 - Um led rgb indicador acende indicando a proximidade dos números. Quanto mais próximo o palpite, mais vermelho o led acenderá e quanto mais distante mais azul o led será.  
-4 - Ao acerto o número sorteado, um segundo led acende em verde indicando a vitória no jogo.  
-5 - Caso outro número seja sorteado, ambos os leds de proximidade e acerto se apagam indicando o recomeço do jogo. 
+1 - Dois números de 4 bits são sorteados aleatoriamente, representando as coordenadas X e Y de um ponto oculto.  
+2 - O jogador da vez escolhe um número de 4 bits para sua coordenada X e confirma o palpite.  
+3 - Em seguida, escolhe um número de 4 bits para sua coordenada Y e confirma o palpite.  
+4 - O jogo informa se as coordenadas X e Y foram acertadas e se a soma das coordenadas do palpite é igual à soma das coordenadas do ponto oculto.  
+5 - Um led RGB indica a proximidade entre a soma das coordenadas chutadas e a soma das coordenadas reais. Quanto mais próximo, mais vermelho o led ficará, e quanto mais distante, mais azul.  
+6 - Caso o jogador acerte simultaneamente as coordenadas X e Y, ele ganha um ponto.  
+7 - Após finalizar seu palpite, o turno passa para o próximo jogador e seu cronômetro começa a contar.  
+8 - O jogo termina quando um dos jogadores alcança 15 pontos ou quando os dois cronômetros chegam ao fim.  
+9 - Ao final, o circuito indica se o jogador A venceu, se o jogador B venceu ou se houve empate. 
 
 ## ⚙️ Funcionalidades
-* Geração de número aleatório a cada rodada.
-* Sistema de confirmação de palpite do usuário.
-* Led rgb indicador de proximidade.
-* Led indicador de acerto.
-* Sistema de reinício ao sortear outro número.
+* Geração aleatória das coordenadas X e Y.
+* Sistema de dois jogadores.
+* Sistema de confirmação dos palpites.
+* Verificação das coordenadas X e Y.
+* Verificação da soma das coordenadas.
+* Led RGB indicador de proximidade.
+* Cronômetro individual para cada jogador.
+* Sistema de alternância de turnos.
+* Sistema de pontuação.
+* Indicação do jogador da vez.
+* Sistema de fim de jogo.
+* Indicação de vitória ou empate.
+* Sistema de reset do jogo.
